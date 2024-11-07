@@ -1,0 +1,23 @@
+:root {
+    --clr-primary-1:'#f4fce9',
+    --clr-primary-2:'#e7f8cf',
+    --clr-primary-3:'#cff1a5',
+    --clr-primary-4:'#afe670',
+    --clr-primary-5:'#90d645',
+    --clr-primary-6:'#6bb224'
+    --clr-primary-7:'#56961a'
+    --clr-primary-8:'#437219'
+    --clr-primary-9:'#375b19'
+    --clr-primary-10:'#314d1a'
+    /* define gray shade */
+    --clr-gray-1:'#f6f6f6',
+    --clr-gray-1:'#efefef',
+    --clr-gray-1:'#dbdbdb',
+    --clr-gray-1:'#aeaeae',
+    --clr-gray-1:'#898989',
+    --clr-gray-1:'#707070',
+    --clr-gray-1:'#575757',
+    --clr-gray-1:'#464646',
+    --clr-gray-1:'#3e3e3e',
+    --clr-gray-1:'#212121',
+}
