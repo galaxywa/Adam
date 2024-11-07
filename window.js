@@ -15,3 +15,4 @@ window.addEventListener("scroll",function() {
 window.addEventListener("blur",function() {
     document.querySelector("p").forEach((p) => {p.style.color ="blank"})
 })
+

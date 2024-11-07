@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://127.0.0.1:5500/frontend_react/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+    
+    
+    
+    <title>Tours</title>
+    
+<link rel="apple-touch-icon" sizes="180x180" href="./Tours_files/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:5500/frontend_react/images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="http://127.0.0.1:5500/frontend_react/images/favicon-16x16.png"><link rel="manifest" href="http://127.0.0.1:5500/frontend_react/images/site.webmanifest"><link rel="preconnect" href="https://fonts.gooleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" href="./Tours_files/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="./Tours_files/style.css"></head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="http://127.0.0.1:5500/frontend_react/index.html">
+                <img src="./Tours_files/apple-touch-icon.png" class="logo-link" alt="logo">
+            </a>
+        </div>
+
+        <!-- desktop -->
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li><a href="http://127.0.0.1:5500/frontend_react/home.html" class="nav-link">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/frontend_react/index.html#about" class="nav-link">about</a></li>
+                <li><a href="http://127.0.0.1:5500/frontend_react/index.html#services" class="nav-link">services</a></li>
+                <li><a href="http://127.0.0.1:5500/frontend_react/index.html#tours" class="nav-link">tours</a></li>
+            </ul>
+        </div>
+        <div class="nav-icons">
+            <ul class="nav-icons-list">
+                <li>
+                    <a href="http://facebook.com/" class="nav-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://facebook.com/" class="nav-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://facebook.com/" class="nav-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- mobile hamburger -->
+        <div class="nav-mobile">
+            <button type="button" class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </div>
+        <section class="hero" id="home">
+            <div class="hero-banner">
+                <h1>continue exploring</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis temporibus similique quia voluptatem atque laudantium voluptatum, minima provident ratione assumenda.</p>
+                <a href="http://127.0.0.1:5500/frontend_react/index.html#tour" class="btn hero-btn">explore</a>
+            </div>
+        </section>
+    </nav>
+    <!-- <script>
+        var xhr = new XMLHttpRequest();
+        console.log(xhr);
+        console.log(xhr.readyState);
+        xhr.onreadystatechange = function () {
+            if(this.readyState === 4 && this.status) {
+                var data = JSON.parse(this.responseText);
+                console.log(data);
+                
+            }
+        }
+
+        xhr.open('get','https://apis.netstart.cn/bcomic/Banner',true);
+        xhr.send();
+    </script> -->
+    <script src="./Tours_files/app.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

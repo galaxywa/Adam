@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- 商品展示区 -->
+    <div id="Commodity">
+        <ul>
+            <li>id</li>
+            <!-- <li>商品名</li> -->
+            <li>价格</li>
+            <!-- <li>颜色</li> -->
+            <!-- <li>尺码</li> -->
+            <li>数量</li>
+            <li>操作</li>
+        </ul>
+        <ul class="commodity">
+            <li class="id">1</li>
+            <li class="price">2500</li>
+            <li class="number">
+                <span class="reduce">-</span>
+                <span class="num">0</span>
+                <span class="plus">+</span>
+            </li>
+            <li>
+                <button class="Add">加入到购物车</button>
+            </li>
+        </ul>
+        <ul class="commodity">
+            <li class="id">2</li>
+            <li class="price">1800</li>
+            <li class="number">
+                <span class="reduce">-</span>
+                <span class="num">0</span>
+                <span class="plus">+</span>
+            </li>
+            <li>
+                <button class="Add">加入到购物车</button>
+            </li>
+        </ul>
+        <ul class="commodity">
+            <li class="id">3</li>
+            <li class="price">1600</li>
+            <li class="number">
+                <span class="reduce">-</span>
+                <span class="num">0</span>
+                <span class="plus">+</span>
+            </li>
+            <li>
+                <button class="Add">加入到购物车</button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 购物车展示区 -->
+    <div id="ShoppingCart">
+        <ul>
+            <li>商品名</li>
+            <li>价格</li>
+            <!-- <li>颜色</li> -->
+            <!-- <li>尺码</li> -->
+            <li>数量</li>
+        </ul>
+        <div id="DisplayInformation">
+            <!-- 购物车内容显示区 -->
+            <!-- 写好样式以后,使用jq动态创建ul li 并一一填入数据然后再放到这个后边即可 -->
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
